@@ -7,6 +7,7 @@ import Services from './services/Services';
 import Department from './department/Department';
 import Gallery from './gallery/Gallery';
 import Contact from './contact/Contact';
+import Footer from './footer/Footer';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
             <Route path='/gallery' element={<Gallery/>}></Route>
             <Route path='/contact' element={<Contact/>}></Route>
           </Routes>
+          <Footer/>
         </Router>
         
     </>
