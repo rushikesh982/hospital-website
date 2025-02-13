@@ -9,7 +9,7 @@ export default function Navbar()
         <>
             <div className="navouter">
                 <div className="navLeft">
-                    <NavLink className={'nav-link d-inline'} to={'/'}><img src="./images/logo.webp" alt="" /></NavLink>
+                    <NavLink className={'nav-link d-inline'} to={'/'}><img src="./images/logo.webp" className="logo" alt="" /></NavLink>
                 </div>
                 <div className="navright pt-sm-2 pt-xl-0">
                     <ul>

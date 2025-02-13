@@ -56,6 +56,10 @@
     {
         display: block;
     }
+    .navouter  .logo
+    {
+        height: 35px;
+    }
     .navouter
     {
         justify-content: space-around;
