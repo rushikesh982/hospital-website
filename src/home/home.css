@@ -133,3 +133,23 @@ h2 {
       width: auto;
     }
 }
+/* counter banner */
+
+.CounterBox
+{
+  height: 300px;
+  width: 100%;
+  margin-bottom: 50px;
+  background-image: url('../../public/images/counter-bg2.webp');
+}
+.CounterInner
+{
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.63);
+}
+.CounterBox h1
+{
+  border: 2px solid rgb(254, 251, 251);
+  padding: 20px;
+}
