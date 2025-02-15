@@ -1,10 +1,14 @@
 import React from "react";
+import WhyChooseUs from "../home/WhyChooseUs";
+import DepartmentBanner from "./DepartmentBanner";
+
 
 export default function Department()
 {
     return(
         <>
-            <h1>Department</h1>
+        <DepartmentBanner/>
+        <WhyChooseUs/>
         </>
     )
 }
