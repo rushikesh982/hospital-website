@@ -110,5 +110,26 @@ h2 {
 {
     font-size: 5vw;
 }
-
-
+/* why choose us */
+#carouselExampleControlsNoTouching
+{
+  height: 300px;
+  width: 35vmax; 
+  overflow: hidden;
+}
+.title
+{
+  color: #008aff;
+}
+.WhyChooseUsBox
+{
+  background-color: #f7f7f7;
+  padding-bottom: 5px;
+}
+@media (max-width : 768px) {
+    #carouselExampleControlsNoTouching
+    {
+      height: auto;
+      width: auto;
+    }
+}

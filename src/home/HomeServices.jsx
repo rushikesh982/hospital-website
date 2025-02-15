@@ -31,10 +31,10 @@ const data = [
 export default function HomeServices() {
   return (
     <>
-      <div className="container">
+      <div className="container mb-5">
         <div className="row text-center">
-          <div className="col-12">
-            <h1>our services</h1>
+          <div className="col-12 mb-4 text-center">
+            <h1 className="serviceTitle">our services</h1>
           </div>
         {data.map((item) => {
           return (
@@ -50,6 +50,9 @@ export default function HomeServices() {
             </>
           );
         })}
+        <div className="col-12">
+            <button className="btn btn-primary mt-5 text-uppercase">more services</button>
+        </div>
         </div>
       </div>
     </>
