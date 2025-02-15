@@ -1,10 +1,13 @@
 import React from "react";
+import WhyChooseUs from "../home/WhyChooseUs";
+import AboutBanner from "./AboutBanner";
 
 export default function About()
 {
     return(
         <>
-            <h1>about us</h1>
+            <AboutBanner/>
+            <WhyChooseUs/>
         </>
     )
 }
