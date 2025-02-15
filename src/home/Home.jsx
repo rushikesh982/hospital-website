@@ -6,6 +6,7 @@ import WhyChooseUs from "./WhyChooseUs";
 import CounterBanner from "./CounterBanner";
 import HomeDoctors from "./HomeDoctors";
 import PatientSaid from "./PatientSaid";
+import MeetDoctors from "./MeetDoctors";
 
 
 export default function Home()
@@ -19,6 +20,7 @@ export default function Home()
             <CounterBanner/>
             <HomeDoctors/>
             <PatientSaid/>
+            <MeetDoctors/>
         </>
     )
 }
