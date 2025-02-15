@@ -19,7 +19,7 @@ export default function Singlefeatures() {
               <span>Read More</span>
             </button>
           </div>
-            <div class="card col-12 col-md-12 col-lg-4">
+            <div class="featurecard col-12 col-md-12 col-lg-4">
               <div class="icon">🕒</div>
               <h2>OPENING HOURS</h2>
               <p class="text-muted">Hospital OPD Time</p>

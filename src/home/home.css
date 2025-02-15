@@ -76,7 +76,7 @@
     background-color: #008aff;
     padding: 15px;
 }
-.card {
+.featurecard {
     max-width: auto;
     margin: auto;
     padding: 20px;
@@ -110,4 +110,5 @@ h2 {
 {
     font-size: 5vw;
 }
+
 
