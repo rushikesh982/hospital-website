@@ -4,6 +4,7 @@ import Singlefeatures from "./Singlefeatures";
 import HomeServices from "./HomeServices";
 import WhyChooseUs from "./WhyChooseUs";
 import CounterBanner from "./CounterBanner";
+import HomeDoctors from "./HomeDoctors";
 
 
 export default function Home()
@@ -15,6 +16,7 @@ export default function Home()
             <HomeServices/>
             <WhyChooseUs/>
             <CounterBanner/>
+            <HomeDoctors/>
         </>
     )
 }
