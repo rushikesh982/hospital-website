@@ -14,3 +14,14 @@
     padding-left: 50px;
     background-image: url('../../public/images/aboutBanner.webp');
 }
+/* about services */
+.imgBox
+{
+    height: 250px;
+    width: 400px;
+}
+.imgBox img
+{
+    height: 100%;
+    width: 100%;
+}
