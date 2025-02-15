@@ -6,7 +6,7 @@ export default function Footer()
 {
     return(
         <>
-            <div className="container-fluid container-md footerbox text-start">
+            <div className="container-fluid container-md footerbox text-start border-top pt-4 border-2">
                 <div className="row">
                     <div className="col-12 col-sm-6 col-md-3">
                         <h5>about us</h5>

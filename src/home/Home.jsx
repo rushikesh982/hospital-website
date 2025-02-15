@@ -5,6 +5,7 @@ import HomeServices from "./HomeServices";
 import WhyChooseUs from "./WhyChooseUs";
 import CounterBanner from "./CounterBanner";
 import HomeDoctors from "./HomeDoctors";
+import PatientSaid from "./PatientSaid";
 
 
 export default function Home()
@@ -17,6 +18,7 @@ export default function Home()
             <WhyChooseUs/>
             <CounterBanner/>
             <HomeDoctors/>
+            <PatientSaid/>
         </>
     )
 }

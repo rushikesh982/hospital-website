@@ -184,3 +184,17 @@ h2 {
   filter: brightness(100%);
   transition: ease-in-out all 0.6s;
 }
+/* what patient said */
+
+.patientBox
+{
+  background-color: #f7f7f7;
+}
+/* .imgBox
+{
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  border: 1px solid black;
+  padding: 10px;
+} */
