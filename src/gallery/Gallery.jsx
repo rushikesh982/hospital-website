@@ -1,11 +1,14 @@
 import React from "react";
+import GalleryBanner from "./GalleryBanner";
+import GalleryImage from "./GalleryImage";
 
 
 export default function Gallery()
 {
     return(
         <>
-            <h1>gallery</h1>
+            <GalleryBanner/>
+            <GalleryImage/>
         </>
     )
 }
