@@ -1,10 +1,15 @@
 import React from "react";
+import CounterBanner from "../home/CounterBanner";
+import Servicesbanner from "./Servicesbanner";
+import Servicesgallery from "./Servicesgallery";
 
 export default function Services()
 {
     return(
         <>
-            <h1>services</h1>
+            <Servicesbanner/>
+            <Servicesgallery/>
+            <CounterBanner/>
         </>
     )
 }

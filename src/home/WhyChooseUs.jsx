@@ -39,7 +39,7 @@ export default function WhyChooseUs() {
             </div>
           </div>
           <div className="row mt-5">
-            <div className="col-12 col-md-6">
+            <div className="col-12 col-lg-6">
               <div
                 id="carouselExampleControlsNoTouching"
                 className="carousel slide"
@@ -83,7 +83,7 @@ export default function WhyChooseUs() {
                 </button>
               </div>
             </div>
-            <div className="col-12 col-md-6 right-box">
+            <div className="col-12 col-lg-6 right-box">
               {data.slice(3).map((item, index) => (
                 <div key={index} className="mb-3">
                   <i className={item.logo}></i>
