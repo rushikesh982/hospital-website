@@ -1,5 +1,6 @@
 import React from "react";
 import "./home.css";
+import { NavLink } from "react-router-dom";
 
 export default function Singlefeatures() {
   return (
@@ -15,8 +16,8 @@ export default function Singlefeatures() {
               as gentle as your love for your child.
             </p>
             <button class="button-57" role="button">
-              <span class="text">Read More</span>
-              <span>Read More</span>
+              <NavLink className={'nav-link d-inline'} to={'/about'}><span class="text">Read More</span>
+              <span>Read More</span></NavLink>
             </button>
           </div>
             <div class="featurecard col-12 col-md-12 col-lg-4">
@@ -56,6 +57,7 @@ export default function Singlefeatures() {
           <p>Book online Appointment </p>
           <p>or</p>
           <p>Call us 9403820779 </p>
+          <button className="btn btn-outline-primary text-dark" data-bs-toggle="modal" data-bs-target="#exampleModal">Appointment</button>
           </div>
         </div>
       </div>

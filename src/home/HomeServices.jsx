@@ -42,8 +42,8 @@ export default function HomeServices() {
               <div className="col-12 col-lg-4">
                 <div className="card servicesCard text-center border-0">
                   <div className="card-body">
-                    <img src={item.img} alt="" />
-                    <p className="">{item.name}</p>
+                    <img src={item.img} alt=""/>
+                    <p><a href="#top" className="back-to-top text-dark text-decoration-none">{item.name}</a></p>
                   </div>
                 </div>
               </div>
@@ -51,7 +51,8 @@ export default function HomeServices() {
           );
         })}
         <div className="col-12">
-            <button className="btn btn-primary mt-5 text-uppercase">more services</button>
+            <button className="btn btn-primary mt-5 text-uppercase" data-bs-toggle="modal" data-bs-target="#exampleModal">more services</button>
+            
         </div>
         </div>
       </div>
